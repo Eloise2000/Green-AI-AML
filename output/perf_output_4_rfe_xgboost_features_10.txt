@@ -1,0 +1,632 @@
+Running perf for script/4_rfe_xgboost.py 30 times of 10 features with a 100 second cool-down period...
+***Run #1
+Random seed used: 1722092376
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36569.46 ms
+Validation AUC: 0.863
+Test AUC: 0.864
+Accuracy: 0.737
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.263
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           4913.05 Joules power/energy-pkg/                                           
+            773.85 Joules power/energy-ram/                                           
+
+      65.639246122 seconds time elapsed
+
+
+***Run #2
+Random seed used: 1722092541
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36759.80 ms
+Validation AUC: 0.867
+Test AUC: 0.876
+Accuracy: 0.767
+Precision: 0.004
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.233
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5166.27 Joules power/energy-pkg/                                           
+            805.32 Joules power/energy-ram/                                           
+
+      72.167838148 seconds time elapsed
+
+
+***Run #3
+Random seed used: 1722092714
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36399.92 ms
+Validation AUC: 0.872
+Test AUC: 0.861
+Accuracy: 0.724
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.277
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           4989.49 Joules power/energy-pkg/                                           
+            794.21 Joules power/energy-ram/                                           
+
+      66.640003379 seconds time elapsed
+
+
+***Run #4
+Random seed used: 1722092882
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37138.66 ms
+Validation AUC: 0.865
+Test AUC: 0.862
+Accuracy: 0.749
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.251
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5222.78 Joules power/energy-pkg/                                           
+            814.07 Joules power/energy-ram/                                           
+
+      73.713464157 seconds time elapsed
+
+
+***Run #5
+Random seed used: 1722093055
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36771.06 ms
+Validation AUC: 0.874
+Test AUC: 0.858
+Accuracy: 0.721
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.279
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5467.82 Joules power/energy-pkg/                                           
+            829.30 Joules power/energy-ram/                                           
+
+      78.865021782 seconds time elapsed
+
+
+***Run #6
+Random seed used: 1722093235
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36298.34 ms
+Validation AUC: 0.863
+Test AUC: 0.873
+Accuracy: 0.754
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.246
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5163.72 Joules power/energy-pkg/                                           
+            808.16 Joules power/energy-ram/                                           
+
+      71.781090421 seconds time elapsed
+
+
+***Run #7
+Random seed used: 1722093407
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37410.37 ms
+Validation AUC: 0.861
+Test AUC: 0.869
+Accuracy: 0.752
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.248
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5341.01 Joules power/energy-pkg/                                           
+            834.41 Joules power/energy-ram/                                           
+
+      77.231360097 seconds time elapsed
+
+
+***Run #8
+Random seed used: 1722093583
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 35493.01 ms
+Validation AUC: 0.872
+Test AUC: 0.851
+Accuracy: 0.707
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.293
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5148.21 Joules power/energy-pkg/                                           
+            806.71 Joules power/energy-ram/                                           
+
+      71.074000387 seconds time elapsed
+
+
+***Run #9
+Random seed used: 1722093755
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 38092.20 ms
+Validation AUC: 0.859
+Test AUC: 0.867
+Accuracy: 0.758
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.242
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5509.82 Joules power/energy-pkg/                                           
+            830.02 Joules power/energy-ram/                                           
+
+      80.924290770 seconds time elapsed
+
+
+***Run #10
+Random seed used: 1722093937
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37687.65 ms
+Validation AUC: 0.871
+Test AUC: 0.850
+Accuracy: 0.693
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.005
+False Positive Rate (FPR): 0.307
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5446.23 Joules power/energy-pkg/                                           
+            820.22 Joules power/energy-ram/                                           
+
+      79.542808116 seconds time elapsed
+
+
+***Run #11
+Random seed used: 1722094116
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36036.14 ms
+Validation AUC: 0.862
+Test AUC: 0.868
+Accuracy: 0.756
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.244
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5154.72 Joules power/energy-pkg/                                           
+            805.15 Joules power/energy-ram/                                           
+
+      70.746578040 seconds time elapsed
+
+
+***Run #12
+Random seed used: 1722094289
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37138.83 ms
+Validation AUC: 0.869
+Test AUC: 0.858
+Accuracy: 0.728
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.272
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5242.25 Joules power/energy-pkg/                                           
+            818.38 Joules power/energy-ram/                                           
+
+      73.062159776 seconds time elapsed
+
+
+***Run #13
+Random seed used: 1722094461
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36838.24 ms
+Validation AUC: 0.863
+Test AUC: 0.859
+Accuracy: 0.720
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.280
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5396.00 Joules power/energy-pkg/                                           
+            825.91 Joules power/energy-ram/                                           
+
+      76.977642032 seconds time elapsed
+
+
+***Run #14
+Random seed used: 1722094637
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37727.00 ms
+Validation AUC: 0.869
+Test AUC: 0.875
+Accuracy: 0.773
+Precision: 0.004
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.227
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           4980.09 Joules power/energy-pkg/                                           
+            799.73 Joules power/energy-ram/                                           
+
+      65.921333178 seconds time elapsed
+
+
+***Run #15
+Random seed used: 1722094805
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 35743.09 ms
+Validation AUC: 0.859
+Test AUC: 0.853
+Accuracy: 0.705
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.295
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5195.01 Joules power/energy-pkg/                                           
+            813.75 Joules power/energy-ram/                                           
+
+      73.301435098 seconds time elapsed
+
+
+***Run #16
+Random seed used: 1722094978
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 35740.88 ms
+Validation AUC: 0.861
+Test AUC: 0.869
+Accuracy: 0.750
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.250
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           4968.70 Joules power/energy-pkg/                                           
+            791.03 Joules power/energy-ram/                                           
+
+      66.026410973 seconds time elapsed
+
+
+***Run #17
+Random seed used: 1722095144
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36822.70 ms
+Validation AUC: 0.858
+Test AUC: 0.861
+Accuracy: 0.727
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.273
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5497.36 Joules power/energy-pkg/                                           
+            829.01 Joules power/energy-ram/                                           
+
+      79.530953940 seconds time elapsed
+
+
+***Run #18
+Random seed used: 1722095324
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37484.03 ms
+Validation AUC: 0.866
+Test AUC: 0.858
+Accuracy: 0.717
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.283
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5411.27 Joules power/energy-pkg/                                           
+            832.34 Joules power/energy-ram/                                           
+
+      78.481102670 seconds time elapsed
+
+
+***Run #19
+Random seed used: 1722095503
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36088.49 ms
+Validation AUC: 0.880
+Test AUC: 0.860
+Accuracy: 0.718
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.282
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5067.83 Joules power/energy-pkg/                                           
+            798.69 Joules power/energy-ram/                                           
+
+      68.691980834 seconds time elapsed
+
+
+***Run #20
+Random seed used: 1722095671
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36600.84 ms
+Validation AUC: 0.861
+Test AUC: 0.875
+Accuracy: 0.774
+Precision: 0.004
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.226
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           4802.71 Joules power/energy-pkg/                                           
+            775.09 Joules power/energy-ram/                                           
+
+      61.577807444 seconds time elapsed
+
+
+***Run #21
+Random seed used: 1722095834
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37195.00 ms
+Validation AUC: 0.862
+Test AUC: 0.863
+Accuracy: 0.751
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.249
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5213.69 Joules power/energy-pkg/                                           
+            814.81 Joules power/energy-ram/                                           
+
+      72.618529340 seconds time elapsed
+
+
+***Run #22
+Random seed used: 1722096007
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37052.47 ms
+Validation AUC: 0.872
+Test AUC: 0.865
+Accuracy: 0.735
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.265
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5076.61 Joules power/energy-pkg/                                           
+            807.47 Joules power/energy-ram/                                           
+
+      68.795230201 seconds time elapsed
+
+
+***Run #23
+Random seed used: 1722096176
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37052.13 ms
+Validation AUC: 0.865
+Test AUC: 0.864
+Accuracy: 0.739
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.261
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5356.92 Joules power/energy-pkg/                                           
+            848.64 Joules power/energy-ram/                                           
+
+      76.544664876 seconds time elapsed
+
+
+***Run #24
+Random seed used: 1722096352
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36943.24 ms
+Validation AUC: 0.852
+Test AUC: 0.862
+Accuracy: 0.730
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.270
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5154.66 Joules power/energy-pkg/                                           
+            811.58 Joules power/energy-ram/                                           
+
+      71.552937303 seconds time elapsed
+
+
+***Run #25
+Random seed used: 1722096525
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36237.24 ms
+Validation AUC: 0.854
+Test AUC: 0.865
+Accuracy: 0.740
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.260
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5015.85 Joules power/energy-pkg/                                           
+            801.06 Joules power/energy-ram/                                           
+
+      67.997877317 seconds time elapsed
+
+
+***Run #26
+Random seed used: 1722096693
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37771.07 ms
+Validation AUC: 0.857
+Test AUC: 0.864
+Accuracy: 0.741
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.259
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5117.04 Joules power/energy-pkg/                                           
+            792.82 Joules power/energy-ram/                                           
+
+      70.371462688 seconds time elapsed
+
+
+***Run #27
+Random seed used: 1722096864
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 35325.98 ms
+Validation AUC: 0.857
+Test AUC: 0.863
+Accuracy: 0.738
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.262
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5141.21 Joules power/energy-pkg/                                           
+            808.07 Joules power/energy-ram/                                           
+
+      72.047605972 seconds time elapsed
+
+
+***Run #28
+Random seed used: 1722097037
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 36132.28 ms
+Validation AUC: 0.856
+Test AUC: 0.859
+Accuracy: 0.722
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.278
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5114.71 Joules power/energy-pkg/                                           
+            805.04 Joules power/energy-ram/                                           
+
+      71.604355103 seconds time elapsed
+
+
+***Run #29
+Random seed used: 1722097208
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37257.44 ms
+Validation AUC: 0.869
+Test AUC: 0.869
+Accuracy: 0.749
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.007
+False Positive Rate (FPR): 0.251
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5273.24 Joules power/energy-pkg/                                           
+            819.68 Joules power/energy-ram/                                           
+
+      74.872133960 seconds time elapsed
+
+
+***Run #30
+Random seed used: 1722097383
+----- Model Performance Metrics (Desired TPR is around 80.0%) -----
+Time spent on training: 37082.24 ms
+Validation AUC: 0.867
+Test AUC: 0.864
+Accuracy: 0.735
+Precision: 0.003
+Recall: 0.800
+F1 Score: 0.006
+False Positive Rate (FPR): 0.265
+True Positive Rate (TPR): 0.800
+
+ Performance counter stats for 'system wide':
+
+           5050.59 Joules power/energy-pkg/                                           
+            803.43 Joules power/energy-ram/                                           
+
+      67.668256927 seconds time elapsed
+
+
+Completed 30 runs.
