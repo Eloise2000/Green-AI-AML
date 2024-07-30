@@ -76,22 +76,20 @@ X_validation, X_test, y_validation, y_test = train_test_split(X_temp, y_temp, te
 ''' Hyperparameter Search Training Model -- RandomizedSearchCV'''
 # from scipy.stats import uniform as st_uniform, randint as st_randint
 # from sklearn.model_selection import RandomizedSearchCV, StratifiedKFold
-# from xgboost import callback
 
 # param_dist = {
 #     'n_estimators': st_randint(100, 250),
 #     'max_depth': st_randint(5, 15),
-#     'learning_rate': st_uniform(0.04, 0.2),
-#     'subsample': st_uniform(0.7, 0.3),
-#     'colsample_bytree': st_uniform(0.7, 0.3),
-#     'gamma': st_uniform(0, 0.5)
+#     'learning_rate': st_uniform(0.05, 0.2)
+# #     'subsample': st_uniform(0.7, 0.3),
+# #     'colsample_bytree': st_uniform(0.7, 0.3),
+# #     'gamma': st_uniform(0, 0.5)
 # }
 
 # # xgb = XGBClassifier(use_label_encoder=False, eval_metric='logloss', random_state=random_seed)
 # xgb = XGBClassifier(
 #     eval_metric='aucpr', 
 #     random_state=random_seed)
-#     # callbacks=[LoggingCallback()])
 
 # # Stratified K-Fold cross-validator
 # skf = StratifiedKFold(n_splits=3, shuffle=True, random_state=42)
@@ -100,7 +98,6 @@ X_validation, X_test, y_validation, y_test = train_test_split(X_temp, y_temp, te
 # random_search = RandomizedSearchCV(
 #     estimator=xgb,
 #     param_distributions=param_dist,
-#     # n_iter=20,
 #     n_iter=100,
 #     scoring='roc_auc',
 #     cv=skf,
@@ -109,14 +106,25 @@ X_validation, X_test, y_validation, y_test = train_test_split(X_temp, y_temp, te
 #     random_state=42
 # )
 
-# start_time = time.time()
+# # start_time = time.time()
 # random_search.fit(X_train, y_train)
-# end_time = time.time()
+# # end_time = time.time()
 
-# print(f'Test spend on training: {(end_time-start_time)*1000} ms')
+# # print(f'Test spend on training: {(end_time-start_time)*1000} ms')
 # print("Best Parameters: ", random_search.best_params_)
 
-# best_model = random_search.best_estimator_
+# # best_model = random_search.best_estimator_
+
+''' Last time result: 
+Best Parameters:  {'learning_rate': 0.14184977839317342, 'max_depth': 9, 'n_estimators': 199}
+
+ Performance counter stats for 'system wide':
+
+         310122.07 Joules power/energy-pkg/
+          62907.37 Joules power/energy-ram/
+
+    2496.444165331 seconds time elapsed 
+'''
 
 ''' Pure Training Model '''
 # Initialize model with fixed hyperparameters
